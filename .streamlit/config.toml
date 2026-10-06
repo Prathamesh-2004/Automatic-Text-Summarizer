@@ -1,0 +1,16 @@
+[server]
+# Stop Streamlit from scanning every library file for changes.
+# (It was trying to inspect ~1000 unused image modules inside transformers
+#  and printing "No module named torchvision" errors.)
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+# Light theme with a teal accent, matching the custom styles in app.py
+base = "light"
+primaryColor = "#0f766e"
+backgroundColor = "#f5f7fb"
+secondaryBackgroundColor = "#e9eff6"
+textColor = "#1f2937"

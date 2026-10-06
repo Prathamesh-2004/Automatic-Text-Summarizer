@@ -1,0 +1,18 @@
+# ---- Phase 1-2: preprocessing + extractive summarization ----
+nltk>=3.8.1
+numpy
+pandas
+scikit-learn
+networkx
+
+# ---- Phase 3: abstractive summarization (pre-trained BART) ----
+torch
+transformers
+
+# ---- Phase 4: user interface ----
+streamlit
+
+# ---- Phase 5: evaluation ----
+datasets
+rouge-score
+matplotlib
